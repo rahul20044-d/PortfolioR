@@ -212,6 +212,17 @@ body {
   flex-wrap: wrap;
 }
 
+@media (max-width: 480px) {
+  .intro-container {
+    padding: 1rem 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .intro-container {
+    padding: 1rem 2rem;
+  }
+}
+
 .intro-split {
   display: flex;
   flex-wrap: wrap;
@@ -405,6 +416,17 @@ body {
   background: #ffffff;
 }
 
+@media (max-width: 480px) {
+  .services-section {
+    padding: 1rem 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .services-section {
+    padding: 1rem 2rem;
+  }
+}
+
 .services-header {
   display: flex;
   justify-content: space-between;
@@ -478,10 +500,7 @@ body {
   color: #666;
   line-height: 1.6;
 }
-.overlay-icon {
-  font-size: 2rem;
-  padding-bottom: 1rem;
-}
+
 /* Responsive styles */
 @media (max-width: 1024px) {
   .services-section {
@@ -546,6 +565,17 @@ body {
   background-color: #005550;
   color: #fff;
   padding: 4rem 6rem;
+}
+
+@media (max-width: 480px) {
+  .about-section {
+    padding: 2rem 3rem;
+  }
+}
+@media (max-width: 768px) {
+  .about-section {
+    padding: 2rem 3rem;
+  }
 }
 
 .about-container {
@@ -629,6 +659,17 @@ project section  */
   background: #f9f9f9;
 }
 
+@media (max-width: 480px) {
+  .projects-section {
+    padding: 1rem 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .projects-section {
+    padding: 1rem 2rem;
+  }
+}
+
 .projects-section h2 {
   font-size: 32px;
   margin-bottom: 40px;
@@ -703,6 +744,17 @@ project section  */
   background: #f9f9f9;
 }
 
+@media (max-width: 480px) {
+  .journey-section {
+    padding: 1rem 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .journey-section {
+    padding: 1rem 2rem;
+  }
+}
+
 .journey-section h2 {
   font-size: 2em;
   margin-bottom: 40px;
@@ -775,6 +827,17 @@ project section  */
   padding: 1rem 6rem;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 480px) {
+  .contact-split {
+    padding: 1rem 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .contact-split {
+    padding: 1rem 2rem;
+  }
 }
 
 .contact-left,
@@ -872,6 +935,16 @@ project section  */
   text-align: center;
 }
 
+@media (max-width: 480px) {
+  .site-footer {
+    padding: 1rem 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .site-footer {
+    padding: 1rem 2rem;
+  }
+}
 .footer-content {
   max-width: 1000px;
   margin: auto;
@@ -896,4 +969,9 @@ project section  */
 
 .footer-links a:hover {
   color: white;
+}
+
+.overlay-icon {
+  font-size: 2rem;
+  padding-bottom: 1rem;
 }
