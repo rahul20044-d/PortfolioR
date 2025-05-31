@@ -478,7 +478,10 @@ body {
   color: #666;
   line-height: 1.6;
 }
-
+.overlay-icon {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
 /* Responsive styles */
 @media (max-width: 1024px) {
   .services-section {
